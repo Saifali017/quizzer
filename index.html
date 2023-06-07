@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+    body {
+      font-family: "Trirong", serif;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 style="text-align: center; font-size: 3.5rem;">Quiz Time!</h1>
+        <div id="box">
+            <h2 id="quebox">1) Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, ?</h2>
+            <div class="row">  
+                <label for="option1" style="font-size: 1.5rem;">a) option 1</label>
+                <input class="options"  type="radio" name="option" id="option1" value="a">
+            </div>
+            <div class="row">  
+                <label for="option2" style="font-size: 1.5rem;">b) option 2</label>
+                <input class="options" type="radio" name="option" id="option2" value="b">
+            </div>
+            <div class="row">  
+                <label for="option3"style="font-size: 1.5rem;">c) option 3</label>
+                <input class="options" type="radio" name="option" id="option3" value="c">
+            </div>
+            <div class="row">  
+                <label for="option4"style="font-size: 1.5rem;">d) option 4</label>
+                <input class="options" type="radio" name="option" id="option4" value="d">
+            </div>
+           
+                <button class="btn" onclick="submitquiz()"> Submit</button>
+            
+        </div>
+    </div>
+    <div class="bottom">
+        <h2>copyright &copy; Quizzers Club </h2>
+    </div>
+   <script src="js.js"></script> 
+</body>
+</html>
